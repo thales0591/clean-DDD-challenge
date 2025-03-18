@@ -1,9 +1,9 @@
 import { UniqueEntityId } from "../../core/entities/unique-entity-id";
 
-interface ProfitByProductProps {
+interface MakeSalesProps {
     productId: UniqueEntityId
 }
 
-export class ProfitByProductUseCase {
+export class MakeSaleUseCase {
   
 }

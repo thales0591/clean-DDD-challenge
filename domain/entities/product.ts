@@ -1,4 +1,5 @@
 import { Entity } from "../../core/entities/entity"
+import { UniqueEntityId } from "../../core/entities/unique-entity-id"
 
 interface ProductProps {
   color: string
@@ -8,5 +9,6 @@ interface ProductProps {
 }
 
 export class Product extends Entity<ProductProps> {
-  
+    create(props: ProductProps, id?: UniqueEntityId) {  
+    }
 }

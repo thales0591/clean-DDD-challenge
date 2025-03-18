@@ -1,11 +1,10 @@
 import { UniqueEntityId } from "../../core/entities/unique-entity-id"
 
-interface SoldsByTimeProps {
+interface EditProductProps {
     productId: UniqueEntityId
-    startDate: Date
-    endDate: Date
-  }
+    toChangeProps: string
+}
 
-export class SoldsByTimeUseCase {
+export class EditProductUseCase {
   
 }

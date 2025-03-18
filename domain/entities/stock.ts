@@ -1,9 +1,12 @@
+import {Entity} from "../../core/entities/entity"
+import { UniqueEntityId } from "../../core/entities/unique-entity-id"
+
 interface StockProps {
   productId: string
   quantity: number
-  solded: number
 }
 
-export class Stock {
-  
+export class Stock extends Entity<StockProps> {
+  create(props: StockProps, id?: UniqueEntityId) { 
+  }
 }
